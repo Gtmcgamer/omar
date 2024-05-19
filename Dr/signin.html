@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <h1 class="dancing-script">welcome!</h1>
+      <form class="sign-in" action="kd.php" method="post">
+        <div class="social-icons">
+          <a href="#" class="icon"
+            ><i class="fa-brands fa-google-plus-g"></i
+          ></a>
+          <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="icon"><i class="fa-brands fa-discord"></i></a>
+        </div>
+
+        <div id="registration-form" class="pure-form">
+          <input type="email" placeholder="email" name="email" />
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            required
+            name="passwrd"
+          />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            id="confirm_password"
+            required
+            name="confirm_password"
+          />
+          <button type="submit">
+            Sign in
+            <div class="arrow-wrapper">
+              <div class="arrow"></div>
+            </div>
+          </button>
+          <h2>you dont have account <a href="signup.html">sign up</a></h2>
+        </div>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
